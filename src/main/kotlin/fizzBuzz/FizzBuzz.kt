@@ -4,7 +4,10 @@ class FizzBuzz {
 
     fun printNumber() {
         for (i in 1..100){
-            println(i)
+            when {
+                i % 3 == 0 -> println("Fizz")
+                else -> println(i)
+            }
         }
     }
 }
