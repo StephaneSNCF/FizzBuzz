@@ -2,7 +2,7 @@ package fizzBuzz
 
 class FizzBuzz {
 
-    fun printNumber(): Int {
-        return 1
+    fun printNumber(nb: Int): Int {
+        return nb
     }
 }
