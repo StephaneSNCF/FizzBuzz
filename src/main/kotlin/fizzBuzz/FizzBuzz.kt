@@ -2,7 +2,9 @@ package fizzBuzz
 
 class FizzBuzz {
 
-    fun printNumber(nb: Int): Int {
-        return nb
+    fun printNumber() {
+        for (i in 1..100){
+            println(i)
+        }
     }
 }
